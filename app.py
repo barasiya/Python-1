@@ -6,6 +6,8 @@ app = Flask(__name__)
 FILE_NAME = "tasks.txt"
 
 
+
+
 def load_tasks():
     if not os.path.exists(FILE_NAME):
         return []
